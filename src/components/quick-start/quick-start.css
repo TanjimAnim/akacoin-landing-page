@@ -1,0 +1,42 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.quick-start-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quick-start-box-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-start-box-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quick-start-box-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
