@@ -1,21 +1,55 @@
 .NavbarItems {
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 1rem;
   font-weight: 600;
   position: -webkit-sticky;
-
   top: 0;
   width: 100%;
   z-index: 1;
-  background: white;
+  background: transparent;
+}
+
+.blue-text {
+  color: #1f33d8;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.black-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.parent-div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.blue-ellipse {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.yellow-ellipse {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.light-yellow-ellipse {
+  position: absolute;
+  top: 4px;
+  left: 4px;
 }
 
 .navbar-items-left {
   display: flex;
   flex-direction: row;
+  padding-left: 120px;
 }
 .navbar-items-right {
   display: flex;
@@ -26,21 +60,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navbar-logo {
-  position: relative;
-  justify-self: start;
-  margin-left: 8px;
-  margin-right: 8px;
-  cursor: pointer;
-  width: 250px;
-}
-
-.navbar-title {
-  border-left: 0.1em solid #000000;
-  font-weight: 600;
-  margin-left: 2px;
 }
 
 .nav-menu {
@@ -57,6 +76,10 @@
 .nav-links {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #0e133a;
 }
 
 .nav-links:hover {
@@ -67,7 +90,7 @@
 }
 
 .fa-bars {
-  color: #000000;
+  color: #0e133a;
 }
 
 .nav-links-mobile {
@@ -131,7 +154,7 @@
   }
 
   .fa-times {
-    color: #000000;
+    color: #0e133a;
     font-size: 2rem;
   }
 }

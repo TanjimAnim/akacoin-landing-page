@@ -42,7 +42,7 @@ const Cards = () => {
               See the get started guide, videos, tutorials, SDKs, reference
               implementations, and more.
             </Card.Text>
-            <img src={image1} alt='an empty image' />
+            <img src={image1} alt='empty' />
             <Card.Link href='#'>Start Building</Card.Link>
           </Card.Body>
         </Card>
@@ -60,14 +60,10 @@ export default function QuickStart() {
           <div className='quick-start-box-center'>
             <div className='quick-start-box-left'>
               <div className='parent'>
-                <img
-                  src={circle}
-                  alt='an yellow circle image'
-                  className='image1'
-                />
+                <img src={circle} alt='an yellow circle' className='image1' />
                 <img
                   src={item.image}
-                  alt='bitcoin related image'
+                  alt='bitcoin related'
                   className='image2'
                 />
               </div>
